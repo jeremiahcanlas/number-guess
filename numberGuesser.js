@@ -14,12 +14,12 @@ let min = 1,
     guessesLeft = 3;
 
 //UI Elements
-const gameUI = document.getElementById('game'),
-    minNumUI = document.querySelector('.min-num'),
-    maxNumUI = document.querySelector('.max-num'),
-    guessbtnUI = document.getElementById('guess-btn'),
-    guessinputUI = document.getElementById('guess-input'),
-    messageUI = document.querySelector('.message');  
+const   gameUI = document.getElementById('game'),
+        minNumUI = document.querySelector('.min-num'),
+        maxNumUI = document.querySelector('.max-num'),
+        guessbtnUI = document.getElementById('guess-btn'),
+        guessinputUI = document.getElementById('guess-input'),
+        messageUI = document.querySelector('.message');  
 
 
 // Assign UI min and max
@@ -27,9 +27,9 @@ minNumUI.textContent = min;
 maxNumUI.textContent = max;
 
 // play again event listener
-game.addEventListener('mousedown',function(e){
-if(e.target.className === 'play-again'){
-    window.location.reload();
+gameUI.addEventListener('mousedown',function(e){
+if(e.target.className === 'btn-lg btn-light play-again'){
+    document.location.reload();
 }
 })
 

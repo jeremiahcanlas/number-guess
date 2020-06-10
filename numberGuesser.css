@@ -5,3 +5,7 @@ body {
 footer p {
     font-weight: 600;
 }
+
+.container {
+    max-width: 600px;
+}
