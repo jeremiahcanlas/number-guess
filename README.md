@@ -8,3 +8,6 @@ The user has 3 guesses,
 This game is coded with html,css, and javascript. The css is mainly bootstrap for the cleaner look, and also overall responsiveness.
 
 Please have a look at my code, if you see something that could be improved or corrected, send me a pull request anytime and ill have a look at it!
+
+Jeremiah Canlas
+jeremiahcanlas.com
